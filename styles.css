@@ -292,28 +292,6 @@ p {
     line-height: 1.7;
 }
 
-@media (max-width: 768px) {
-
-    .nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .hero h2 {
-        font-size: 2rem;
-        line-height: 1.2;
-    }
-
-    .btn {
-        width: 100%;
-        max-width: 320px;
-    }
-
-    .service-grid {
-        flex-direction: column;
-    }
-}
-
 .btn {
     display: inline-flex;
     align-items: center;
@@ -400,4 +378,126 @@ textarea {
 .service {
     box-shadow:
     0 10px 30px rgba(15,23,42,0.06);
+}
+
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+    header {
+        position: relative;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 72px;
+        padding: 10px 18px;
+
+        overflow: hidden;
+    }
+
+    .logo {
+        height: 115px;
+        width: auto;
+
+        object-fit: cover;
+        object-position: center;
+
+        transform: scale(1.28);
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    nav a {
+        margin-left: 0;
+        font-size: 0.82rem;
+        font-weight: 600;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 80px 22px;
+        min-height: auto;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero h2 {
+        font-size: 2.15rem;
+        line-height: 1.08;
+        letter-spacing: -1px;
+        margin-bottom: 18px;
+        max-width: 95%;
+    }
+
+    .hero-sub {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .trust-badges {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .trust-badges span {
+        font-size: 0.78rem;
+        padding: 8px 14px;
+    }
+
+    /* BUTTONS */
+    .buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn {
+        width: 100%;
+        min-width: auto;
+    }
+
+    /* SERVICES */
+    .section {
+        padding: 70px 22px;
+    }
+
+    .service-grid {
+        flex-direction: column;
+    }
+
+    .service img {
+        height: 220px;
+    }
+
+    /* GALLERY */
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery img {
+        height: 240px;
+    }
+
+    /* CONTACT */
+    #contact {
+        border-radius: 30px 30px 0 0;
+    }
+
+    footer {
+        padding: 30px 20px;
+        text-align: center;
+    }
 }
