@@ -1,166 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mascom Tyres & Roadside Assistance</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dombo Tyres and Roadside Assist in Thabazimbi, Limpopo. Quality tyres, roadside assistance and tyre support to keep you moving." />
+  <meta name="theme-color" content="#0b0b0b" />
+  <title>Dombo Tyres & Roadside Assist | Thabazimbi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700;1,800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header class="site-header" id="home">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Dombo Tyres home">
+        <img src="assets/dombo-brand.png" alt="Dombo Tyres and Roadside Assist" />
+      </a>
 
-<header>
-    <div class="container nav">
-        <img src="assets/logo.png" alt="Mascom Tyres Logo" class="logo">
-        <nav>
-            <a href="#services">Services</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Our Work</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="tel:+27729973337">Call 072 997 3337</a>
+      </nav>
     </div>
-</header>
+  </header>
 
-<!-- HERO -->
-<section class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-        <h2>
-        24/7 Roadside Breakdown Assistance & Mobile Tyre Services
-        </h2>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">TYRES • ROADSIDE ASSISTANCE • THABAZIMBI</p>
+          <h1 id="hero-title">Keeping you <span>moving</span>, anytime, anywhere.</h1>
+          <p class="hero-text">Quality tyre services and dependable roadside assistance for drivers who need fast, practical help on the road.</p>
 
-        <p class="hero-sub">
-            Trucks • Trailers • TLBs • Tractors • Cars • Bakkies • Buses
-        </p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="tel:+27729973337">Call Now</a>
+            <a class="btn btn-outline" href="https://wa.me/27729973337?text=Hi%20Dombo%20Tyres%2C%20I%20need%20assistance." target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
 
-        <div class="trust-badges">
-            <span>✓ Emergency Breakdown Assistance</span>
-            <span>✓ Mobile Tyre Fitment</span>
-            <span>✓ Mechanical Repairs</span>
+          <div class="hero-points" aria-label="Service highlights">
+            <span>Quality Tyres</span>
+            <span>Reliable Service</span>
+            <span>Roadside Support</span>
+          </div>
         </div>
-        <div class="buttons">
-            <a href="tel:+27787176515" class="btn call">
-                📞 Call Now
+      </div>
+    </section>
+
+    <section class="service-strip" aria-label="Dombo Tyres promise">
+      <div class="container strip-grid">
+        <div><strong>01</strong><span>Quality Tyres</span></div>
+        <div><strong>02</strong><span>Reliable Service</span></div>
+        <div><strong>03</strong><span>Total Peace of Mind</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow dark-text">WHAT WE DO</p>
+          <h2>Tyre and roadside services you can count on</h2>
+          <p>From tyre supply and fitment to help when you are stranded, Dombo Tyres is focused on getting you safely back on the road.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-image"><img src="assets/sale.png" alt="Tyres ready for sale and fitment" loading="lazy" /></div>
+            <div class="service-body">
+              <span class="service-number">01</span>
+              <h3>Tyre Sales & Fitment</h3>
+              <p>Tyre supply and professional fitment for everyday road use, helping you replace worn or damaged tyres with confidence.</p>
+            </div>
+          </article>
+
+          <article class="service-card featured">
+            <div class="service-image"><img src="assets/assist.png" alt="Roadside tyre assistance" loading="lazy" /></div>
+            <div class="service-body">
+              <span class="service-number">02</span>
+              <h3>Roadside Assistance</h3>
+              <p>When tyre trouble leaves you stuck, contact Dombo Tyres for roadside support and practical assistance to get moving again.</p>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image"><img src="assets/work1.png" alt="Tyre being fitted to a vehicle" loading="lazy" /></div>
+            <div class="service-body">
+              <span class="service-number">03</span>
+              <h3>Tyre Repairs & Support</h3>
+              <p>Help with tyre-related problems including punctures, tyre changes and other wheel-and-tyre support where appropriate.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img src="assets/hero.png" alt="Tyre on the road" loading="lazy" />
+          <div class="about-badge">
+            <span>DOMBO</span>
+            <strong>TYRES</strong>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <p class="eyebrow">ABOUT DOMBO TYRES</p>
+          <h2>Built around one simple promise: keep you moving.</h2>
+          <p>Dombo Tyres and Roadside Assist serves motorists from Thabazimbi with tyre and roadside support focused on reliability, convenience and peace of mind.</p>
+
+          <div class="about-list">
+            <div><span>✓</span><p><strong>Practical roadside help</strong><br />Support when a tyre problem interrupts your journey.</p></div>
+            <div><span>✓</span><p><strong>Tyre-focused service</strong><br />A clear focus on tyre supply, fitment and related assistance.</p></div>
+            <div><span>✓</span><p><strong>Local contact</strong><br />Based in Regorogile, Thabazimbi, Limpopo.</p></div>
+          </div>
+
+          <div class="registration-card">
+            <small>Company Registration</small>
+            <strong>2026/610231/07</strong>
+            <span>Registered 03 August 2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading section-heading-light">
+          <p class="eyebrow">OUR WORK</p>
+          <h2>Roadside and tyre support in action</h2>
+          <p>A look at the kind of vehicle and tyre work handled on the road and in service environments.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-wide"><img src="assets/work2.jpg" alt="Roadside tyre service on a truck" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/work3.jpg" alt="Roadside assistance for a truck" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/work4.jpg" alt="Roadside vehicle stop" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/work5.jpg" alt="Vehicle wheel service" loading="lazy" /></figure>
+          <figure class="gallery-item gallery-wide"><img src="assets/work6.jpg" alt="Roadside tyre assistance for a bus" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-card">
+        <div>
+          <p class="eyebrow dark-text">NEED HELP ON THE ROAD?</p>
+          <h2>Contact Dombo Tyres and get moving again.</h2>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-dark" href="tel:+27729973337">072 997 3337</a>
+          <a class="btn btn-white" href="https://wa.me/27729973337?text=Hi%20Dombo%20Tyres%2C%20I%20need%20roadside%20assistance." target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow dark-text">CONTACT US</p>
+          <h2>Tell us what you need help with</h2>
+          <p>Send your location and a short description of the tyre or roadside problem. The form opens WhatsApp with your details ready to send.</p>
+
+          <div class="contact-details">
+            <a href="tel:+27729973337">
+              <span class="contact-icon">☎</span>
+              <span><small>Phone</small><strong>072 997 3337</strong></span>
             </a>
-
-            <a href="https://wa.me/27787176515" class="btn whatsapp">
-                WhatsApp Us
+            <a href="mailto:nkhangwenidombo7@gmail.com">
+              <span class="contact-icon">✉</span>
+              <span><small>Email</small><strong>nkhangwenidombo7@gmail.com</strong></span>
             </a>
+            <div>
+              <span class="contact-icon">●</span>
+              <span><small>Address</small><strong>House No. 1444, Regorogile Ext 4<br />Thabazimbi, Limpopo, 0380</strong></span>
+            </div>
+          </div>
         </div>
+
+        <form id="contactForm" class="contact-form">
+          <div class="field-row">
+            <label>
+              <span>Your name</span>
+              <input type="text" id="name" name="name" placeholder="e.g. Thabo" required />
+            </label>
+            <label>
+              <span>Your phone</span>
+              <input type="tel" id="phone" name="phone" placeholder="e.g. 071 234 5678" required />
+            </label>
+          </div>
+
+          <label>
+            <span>Your current location</span>
+            <input type="text" id="location" name="location" placeholder="Where are you now?" required />
+          </label>
+
+          <label>
+            <span>What do you need?</span>
+            <select id="service" name="service" required>
+              <option value="" selected disabled>Select a service</option>
+              <option>Roadside assistance</option>
+              <option>Tyre purchase / fitment</option>
+              <option>Tyre repair</option>
+              <option>Other tyre-related help</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Describe the issue</span>
+            <textarea id="issue" name="issue" rows="5" placeholder="Tell us what happened and your vehicle type..." required></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-gold form-submit">Send Request on WhatsApp</button>
+          <p class="form-note">No information is sent until you confirm the message in WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/dombo-brand.png" alt="Dombo Tyres" />
+        <p>Quality tyres. Reliable service. Total peace of mind.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Our Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Dombo Tyres & Roadside Assist. All rights reserved.</p>
     </div>
-</section>
+  </footer>
 
-<!-- SERVICES -->
-<section id="services" class="section">
-    <h2>Our Services</h2>
+  <a class="whatsapp-float" href="https://wa.me/27729973337?text=Hi%20Dombo%20Tyres%2C%20I%20need%20assistance." target="_blank" rel="noopener" aria-label="Chat with Dombo Tyres on WhatsApp">WA</a>
 
-    <div class="service-grid">
-
-        <div class="service">
-            <img src="assets/assist.png" alt="">
-            <h3>24/7 Breakdown Assistance</h3>
-            <p>
-                Emergency roadside support for trucks, trailers,
-                buses, tractors, cars and bakkies.
-            </p>
-        </div>
-
-        <div class="service">
-            <img src="assets/sale.png" alt="">
-            <h3>Tyres & Rims</h3>
-            <p>
-                Supply and fitment of tyres and rims for all
-                heavy-duty and passenger vehicles.
-            </p>
-        </div>
-
-        <div class="service">
-            <img src="assets/fix.png" alt="">
-            <h3>Mechanical Repairs</h3>
-            <p>
-                Diagnostics, wheel bearings, ABS repairs,
-                exhaust repairs, springs and bearing pressing.
-            </p>
-        </div>
-
-    </div>
-</section>
-
-<!-- GALLERY -->
-<section id="gallery" class="section dark">
-    <h2>Our Work</h2>
-
-    <div class="gallery">
-        <img src="assets/work1.jpg">
-        <img src="assets/work2.jpg">
-        <img src="assets/work3.jpg">
-        <img src="assets/work4.jpg">
-        <img src="assets/work5.jpg">
-        <img src="assets/work6.jpg">
-        <img src="assets/work7.jpg">
-        <img src="assets/work8.jpg">
-    </div>
-</section>
-
-<section class="section testimonials">
-    <h2>What Our Customers Say</h2>
-
-    <div class="testimonial-grid">
-        <div class="testimonial">
-            <p>"Fast response and professional service."</p>
-            <h4>- James M.</h4>
-        </div>
-
-        <div class="testimonial">
-            <p>"Saved me late at night after a tyre burst."</p>
-            <h4>- Lerato K.</h4>
-        </div>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section">
-
-    <h2>Contact Mascom Tyres</h2>
-
-    <div class="contact-info">
-
-        <p> 078 717 6515</p>
-        <p> 074 838 5546</p>
-        <p> 064 823 2384</p>
-        <p> 079 876 1189</p>
-
-        <p> mascomtyres@gmail.com</p>
-
-        <p>
-             No 3169 Shy Drive, Extension 6,
-            Thabazimbi, 0380
-        </p>
-
-    </div>
-
-    <form id="contactForm">
-
-        <input type="text" id="name" placeholder="Your Name" required>
-
-        <input type="text" id="location" placeholder="Your Location" required>
-
-        <textarea id="issue" placeholder="Describe your breakdown or issue..." required></textarea>
-
-        <button type="submit" class="btn primary">
-            Request Assistance
-        </button>
-
-    </form>
-
-</section>
-
-
-
-<footer>
-    <p>© 2026 Mascom Tyres & Roadside Assistance</p>
-    <p>24/7 Emergency Breakdown Services</p>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
